@@ -1,0 +1,154 @@
+:root {
+  --green-color: #26c6da;
+  --green-satu-color: #8ce1eb;
+  --green-dua-color: #e3f8fa;
+  --white-color: #ebebeb;
+  --white-tiga-color: #fafafd;
+  --white-satu-color: #cacaca;
+  --white-dua-color: #fff;
+  --black-color: #092a33;
+  --grey-color: #627492;
+}
+
+
+.title-text {
+  font: 600 1.875rem/2.25rem Poppins, sans-serif;
+  margin-bottom: 0.75rem;
+}
+
+.caption-text {
+  font: 400 0.875rem/1.75rem Poppins, sans-serif;
+  color: #a8adb7;
+}
+
+.input-label {
+  font: 500 1.125rem/1.75rem Poppins, sans-serif;
+  color: #39465b;
+}
+
+.div-input {
+  font: 300 1rem/1.5rem Poppins, sans-serif;
+  padding: 1rem 1.25rem;
+  margin-top: 0.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid #cacbce;
+  color: #2a3240;
+  transition: 0.3s;
+}
+
+.div-input:focus-within {
+  border: 1px solid var(--green-satu-color);
+  color: #2a3240;
+  transition: 0.3s;
+}
+
+.div-input input::placeholder {
+  color: #cacbce;
+  transition: 0.3s;
+}
+
+.div-input:focus-within input::placeholder {
+  color: #2a3240;
+  outline: none;
+  transition: 0.3s;
+}
+
+.div-input .icon-toggle-empty-4-1 path,
+.div-input:focus-within .icon path {
+  transition: 0.3;
+  fill: var(--green-satu-color);
+  transition: 0.3s;
+}
+
+.input-field {
+  font: 300 1rem/1.5rem Poppins, sans-serif;
+  width: 100%;
+  background-color: #fcfdff;
+  transition: 0.3s;
+}
+
+.input-field:focus {
+  outline: none;
+  transition: 0.3s;
+}
+
+.forgot-password {
+  font: 400 0.875rem/1.25rem Poppins, sans-serif;
+  color: #cacbce;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  color: #2a3240;
+}
+
+.btn-fill {
+  font: 500 1.25rem/1.75rem Poppins, sans-serif;
+  background-image: linear-gradient(
+    var(--green-satu-color),
+    var(--green-color)
+  );
+  padding: 0.75rem 1rem;
+  margin-top: 2.25rem;
+  border-radius: 0.75rem;
+  transition: 0.5s;
+}
+
+.btn-fill:hover {
+  background-image: linear-gradient(var(--green-satu-color), var(--green-color));
+  transition: 0.5s;
+}
+
+.bottom-caption {
+  font: 400 0.875rem/1.25rem Poppins, sans-serif;
+  margin-top: 2rem;
+  color: #2a3240;
+}
+
+.green-bottom-caption {
+  color: var(--green-color);
+  font-weight: 500;
+}
+
+.green-bottom-caption:hover {
+  color: #2ec49c;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (min-width: 576px) {
+  .width-right {
+    padding: 8rem 4rem;
+  }
+
+  .right {
+    width: 58.333333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .right {
+    width: 66.666667%;
+  }
+}
+
+@media (min-width: 992px) {
+  .width-left {
+    width: 48%;
+  }
+
+  .width-right {
+    width: 52%;
+  }
+
+  .right {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .right {
+    width: 58.333333%;
+  }
+}
